@@ -1,0 +1,30 @@
+name: hdfc_insurance_dashboard
+description: A pixel-perfect Flutter UI replicating HDFC Bank insurance dashboard
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # Google Fonts for Poppins typography
+  flutter_svg: ^2.2.3
+  google_fonts: ^6.1.0
+  
+  # Number formatting for Indian currency
+  intl: ^0.19.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  
+  # HDFC logo asset
+  assets:
+    - assets/images/
